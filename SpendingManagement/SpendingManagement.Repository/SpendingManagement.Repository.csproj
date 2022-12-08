@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SpendingManagement.Data\SpendingManagement.Data.csproj" />
+    <ProjectReference Include="..\SpendingManagement.Share\SpendingManagement.Share.csproj" />
+  </ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="DbFactory_LoiMinh" Version="1.0.0" />
+	</ItemGroup>
+
+</Project>
